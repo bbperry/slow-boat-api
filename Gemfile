@@ -1,3 +1,5 @@
+gem 'dotenv-rails', groups: [:development, :test]
+
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -50,3 +52,5 @@ end
 gem 'active_model_serializers'
 gem 'jwt'
 gem 'stripe'
+gem 'env'
+#Added DOTENV to top
