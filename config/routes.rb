@@ -13,10 +13,11 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  post "/login", to: "users#login"
-  post "/signup", to: "users#create"
-  get "/auto_login", to: "users#auto_login"
+  post "/login", to: "auth#login"
+  get "/auto_login", to: "auth#auto_login"
+  get "/user_is_authed", to: "auth#user_is_authed"
 
+  post "/charge_adapter", to: "charge_adapter#create"
 
 
 

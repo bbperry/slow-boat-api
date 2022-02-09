@@ -81,7 +81,7 @@ Product.create(name: "Smoked Salmon Variety Pack",
     discount_id: 'nil') 
 
 Product.create(name: "Smoked Salmon", 
-    desc: "6-8oz portions of smoked salmon", 
+    desc: "6-8oz portions of smoked salmon. 5% discount over 5 lbs", 
     price: 30, 
     total_quantity: 1000, 
     image: "https://i.ibb.co/Rzj4JJP/Hot-smoked-salmon.jpg",

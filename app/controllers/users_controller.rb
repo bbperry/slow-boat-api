@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-    # skip_before_action :require_login, only: [:create, :auto_login]
+    # skip_before_action :require_login, only: [:create]
 
     rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
     rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
