@@ -1,2 +1,0 @@
-class DiscountsController < ApplicationController
-end

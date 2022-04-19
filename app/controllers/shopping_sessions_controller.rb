@@ -1,2 +1,0 @@
-class ShoppingSessionsController < ApplicationController
-end

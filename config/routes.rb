@@ -3,11 +3,7 @@ Rails.application.routes.draw do
   resources :reviews
   resource :users, only: [:create]
   resources :events
-  resources :order_details
-  resources :shopping_sessions
   resources :cart_items
-  resources :discounts
-  resources :order_items
   resources :products
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

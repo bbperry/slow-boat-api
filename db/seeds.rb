@@ -93,11 +93,13 @@ Event.create(title: "Bainbridge Farmers Market", time: 'Saturdays 10AM-2PM', mon
 User.create(username: "Ben", password: "1234567", admin: true)
 User.create(username: "Bob", password: "123", admin: false)
 User.create(username: "Bab", password: "123", admin: false)
+User.create(username: "Bill", password: "123", admin: false)
+User.create(username: "Jenny", password: "123", admin: false)
 
-Review.create(text: 'Best fish ever', rating: 5, user_id: 1)
+Review.create(text: 'Got 60 pounds last fall.  My sons discovered it and now I need another 60 pounds to get through the summer.  It is SOOOOO good.  Trying the halibut this time too.', rating: 5, user_id: 1)
 Review.create(text: 'Even after one year in the freezer they still taste fresh. Best place to buy your salmon. ', rating: 5, user_id: 2)
 Review.create(text: 'Slow Boat is the best.  We found them at the night market.  We were finding it difficult to add fish to our routine.  Then we found thse guys.  Their salmon is the freshest and it comes in individual packets. So convient. This time we splurged on halibut too. Just delicious!  Also very accommodating with the pick up.  Love Thunders Catch! ', rating: 5, user_id: 3)
-
-
+Review.create(text: 'Salmon fillets turn your freezer into a treasure chest. Get some.', rating: 5, user_id: 4)
+Review.create(text: 'We had a great experience! Everything was very simple and easy to figure out!! We have also had a great experience with each fillet that we have eaten so far! :) Love you guys and your business!', rating: 5, user_id: 5)
 
 puts 'seeds have been planted'
